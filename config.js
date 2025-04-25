@@ -11,7 +11,7 @@ function getTimestampAtVietnamHour(hour = 7) {
     const now = new Date();
 
     // Trừ đi 1 ngày để lấy ngày hôm trước theo giờ Việt Nam
-    now.setDate(now.getDate() - 1);
+    now.setDate(now.getDate());
 
     const year = now.getFullYear();
     const month = now.getMonth(); // Lưu ý: tháng bắt đầu từ 0
